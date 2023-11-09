@@ -6,8 +6,8 @@ import NavBar from "../Pages/Shard/NavBar";
 const Root = () => {
     return (
         <div>
-            <Outlet></Outlet>
             <NavBar></NavBar>
+            <Outlet></Outlet>
             <Footer></Footer>
 
         </div>
